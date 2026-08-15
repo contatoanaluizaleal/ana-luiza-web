@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#9f1f2c">
+  <meta name="description" content="Ana Luiza — Desenvolvimento Web. Sites personalizados, responsivos e modernos para pequenos negócios e projetos.">
+  <title>Ana Luiza — Desenvolvimento Web</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <a class="brand" href="#inicio" aria-label="Ana Luiza — voltar ao início">
+      <span class="brand-mark">A</span>
+      <span class="brand-copy">
+        <strong>Ana Luiza</strong>
+        <small>Desenvolvimento Web</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#precos">Preços a partir de</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="header-cta" href="#contato">Solicitar orçamento</a>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section class="hero" id="inicio">
+      <div class="hero-decoration d1"></div>
+      <div class="hero-decoration d2"></div>
+      <div class="hero-dots" aria-hidden="true"></div>
+
+      <div class="hero-copy reveal">
+        <div class="kicker">
+          <span class="kicker-icon">&lt;/&gt;</span>
+          DESENVOLVIMENTO WEB
+        </div>
+
+        <h1>
+          Sites com personalidade,
+          <span>feitos para o seu negócio.</span>
+        </h1>
+
+        <p class="hero-text">
+          Crio sites personalizados para pequenos negócios e projetos, com foco em visual moderno,
+          organização e facilidade de uso. Desenvolvo páginas responsivas para computador e celular,
+          como sites institucionais, landing pages e páginas de pedidos. Cada projeto é feito de acordo
+          com a necessidade do cliente.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projetos">
+            <span>Ver projetos</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-light" href="#contato">
+            <span>Solicitar orçamento</span>
+          </a>
+        </div>
+
+        <div class="hero-points">
+          <span><i>✓</i> Responsivo</span>
+          <span><i>✓</i> Personalizado</span>
+          <span><i>✓</i> Atendimento remoto</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1" aria-label="Ilustração de um site responsivo em computador e celular">
+        <div class="floating-tag tag-code">
+          <span>&lt;/&gt;</span>
+          código limpo
+        </div>
+
+        <div class="floating-tag tag-ui">
+          <span>✦</span>
+          visual moderno
+        </div>
+
+        <div class="laptop">
+          <div class="laptop-screen">
+            <div class="fake-browser">
+              <div class="fake-browser-top">
+                <div class="dots"><i></i><i></i><i></i></div>
+                <div class="address">seudominio.com.br</div>
+              </div>
+
+              <div class="fake-site">
+                <div class="fake-nav">
+                  <strong>Seu Negócio</strong>
+                  <div class="fake-links"><span>Início</span><span>Sobre</span><span>Serviços</span></div>
+                  <b>Contato</b>
+                </div>
+
+                <div class="fake-hero">
+                  <div class="fake-copy">
+                    <small>SUA MARCA ONLINE</small>
+                    <h3>Uma presença digital que combina com você.</h3>
+                    <p>Design moderno, experiência simples e conteúdo organizado.</p>
+                    <button>Conhecer</button>
+                  </div>
+                  <div class="fake-visual">
+                    <div class="flower f1"></div>
+                    <div class="flower f2"></div>
+                    <div class="flower f3"></div>
+                  </div>
+                </div>
+
+                <div class="fake-services">
+                  <article><i></i><b></b><span></span></article>
+                  <article><i></i><b></b><span></span></article>
+                  <article><i></i><b></b><span></span></article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+
+        <div class="phone">
+          <div class="phone-speaker"></div>
+          <div class="phone-content">
+            <div class="phone-nav"><b>AL</b><i></i></div>
+            <span class="phone-label">SITE RESPONSIVO</span>
+            <h4>Bonito em qualquer tela.</h4>
+            <p>Celular, tablet e computador.</p>
+            <div class="phone-button"></div>
+            <div class="phone-card"></div>
+          </div>
+        </div>
+
+        <div class="code-window">
+          <div><span class="pink">.site</span> {</div>
+          <div>&nbsp;&nbsp;color: <span class="pink">#b32738</span>;</div>
+          <div>&nbsp;&nbsp;display: grid;</div>
+          <div>}</div>
+        </div>
+      </div>
+
+      <a href="#sobre" class="scroll-down" aria-label="Ir para a próxima seção">
+        <span>Role para conhecer</span>
+        <i>↓</i>
+      </a>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section about" id="sobre">
+      <div class="section-label reveal">01 — SOBRE MIM</div>
+
+      <div class="about-layout">
+        <div class="about-title reveal">
+          <p>DESIGN + DESENVOLVIMENTO</p>
+          <h2>Transformando ideias em <em>sites que fazem sentido.</em></h2>
+        </div>
+
+        <div class="about-text reveal delay-1">
+          <p>
+            Oi! Eu sou a <strong>Ana Luiza</strong>. Estou no ensino médio e iniciando minha jornada
+            na área de desenvolvimento web.
+          </p>
+          <p>
+            Gosto de criar sites bonitos, organizados e fáceis de usar. Meu objetivo é ajudar pequenos
+            negócios e projetos a terem uma presença online mais profissional, com soluções feitas de
+            acordo com a necessidade de cada cliente.
+          </p>
+          <p>
+            Estou sempre aprendendo, testando novas ideias e evoluindo a cada projeto.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-cards">
+        <article class="about-card reveal">
+          <span>01</span>
+          <div>
+            <h3>Visual moderno</h3>
+            <p>Layouts limpos, atuais e pensados para transmitir a identidade de cada projeto.</p>
+          </div>
+        </article>
+
+        <article class="about-card reveal delay-1">
+          <span>02</span>
+          <div>
+            <h3>Feito para celular</h3>
+            <p>Todo site é pensado para funcionar bem tanto no computador quanto no celular.</p>
+          </div>
+        </article>
+
+        <article class="about-card reveal delay-2">
+          <span>03</span>
+          <div>
+            <h3>Do seu jeito</h3>
+            <p>Nada de modelo genérico: cada projeto é adaptado ao que o cliente realmente precisa.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section services" id="servicos">
+      <div class="services-top">
+        <div class="section-label reveal">02 — SERVIÇOS</div>
+        <div class="services-heading reveal">
+          <h2>O que eu posso <em>criar para você.</em></h2>
+          <p>Do site mais simples até uma página de pedidos, cada projeto é planejado para ser bonito e fácil de usar.</p>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <article class="service-row reveal">
+          <div class="service-number">01</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <div class="service-copy">
+            <h3>Criação de sites institucionais</h3>
+            <p>Sites para apresentar seu negócio, seus serviços, informações importantes e formas de contato.</p>
+          </div>
+          <div class="service-pill">Sites profissionais</div>
+        </article>
+
+        <article class="service-row reveal">
+          <div class="service-number">02</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>
+          </div>
+          <div class="service-copy">
+            <h3>Cardápios digitais</h3>
+            <p>Cardápios bonitos, organizados e fáceis de navegar para restaurantes, lanchonetes e outros negócios.</p>
+          </div>
+          <div class="service-pill">Prático e organizado</div>
+        </article>
+
+        <article class="service-row reveal">
+          <div class="service-number">03</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 7h16l-1.5 12h-13z"/><path d="M8 10V6a4 4 0 018 0v4"/></svg>
+          </div>
+          <div class="service-copy">
+            <h3>Sites de pedidos</h3>
+            <p>Páginas com opções, escolhas personalizadas e encaminhamento do pedido para o canal de atendimento do negócio.</p>
+          </div>
+          <div class="service-pill">Mais facilidade</div>
+        </article>
+
+        <article class="service-row reveal">
+          <div class="service-number">04</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="4"/></svg>
+          </div>
+          <div class="service-copy">
+            <h3>Manutenção de sites</h3>
+            <p>Alterações de conteúdo, melhorias visuais e pequenos ajustes para manter seu site atualizado.</p>
+          </div>
+          <div class="service-pill">Seu site em dia</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section projects" id="projetos">
+      <div class="projects-head">
+        <div>
+          <div class="section-label reveal">03 — PROJETOS</div>
+          <h2 class="reveal">Um espaço para mostrar <em>o que eu crio.</em></h2>
+        </div>
+        <p class="reveal delay-1">
+          Meus próximos projetos vão aparecer aqui. Cada card está preparado para receber imagem, descrição e link.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project project-large reveal">
+          <div class="project-art art-one">
+            <div class="project-browser">
+              <div class="mini-top"><i></i><i></i><i></i></div>
+              <div class="mini-page">
+                <div class="mini-brand"></div>
+                <div class="mini-heading"></div>
+                <div class="mini-text"></div>
+                <div class="mini-button"></div>
+                <div class="mini-panels"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <span class="project-index">01</span>
+          </div>
+          <div class="project-details">
+            <div>
+              <small>PRÓXIMO PROJETO</small>
+              <h3>Seu projeto pode aparecer aqui</h3>
+            </div>
+            <p>Quando você tiver um novo site, basta trocar o conteúdo deste card e adicionar o link.</p>
+            <span class="coming">Em breve</span>
+          </div>
+        </article>
+
+        <article class="project reveal delay-1">
+          <div class="project-art art-two">
+            <div class="mobile-preview">
+              <div class="mobile-line short"></div>
+              <div class="mobile-line"></div>
+              <div class="mobile-photo"></div>
+              <div class="mobile-line"></div>
+              <div class="mobile-button"></div>
+            </div>
+            <span class="project-index">02</span>
+          </div>
+          <div class="project-details small">
+            <div>
+              <small>PORTFÓLIO</small>
+              <h3>Novo projeto</h3>
+            </div>
+            <span class="coming">Em breve</span>
+          </div>
+        </article>
+
+        <article class="project reveal delay-2">
+          <div class="project-art art-three">
+            <div class="landing-preview">
+              <span></span>
+              <b></b>
+              <i></i>
+              <div></div>
+            </div>
+            <span class="project-index">03</span>
+          </div>
+          <div class="project-details small">
+            <div>
+              <small>PORTFÓLIO</small>
+              <h3>Novo projeto</h3>
+            </div>
+            <span class="coming">Em breve</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PREÇOS -->
+    <section class="section pricing" id="precos">
+      <div class="pricing-wrap">
+        <div class="pricing-copy reveal">
+          <div class="section-label light">04 — PREÇOS A PARTIR DE</div>
+          <h2>Um orçamento <em>feito para o seu projeto.</em></h2>
+          <p>
+            Cada site é diferente. O valor é definido de acordo com o tipo de projeto,
+            quantidade de páginas, funcionalidades e nível de personalização.
+          </p>
+          <a href="#contato" class="btn btn-white">Solicitar orçamento</a>
+        </div>
+
+        <div class="pricing-steps">
+          <article class="price-step reveal">
+            <span>01</span>
+            <div>
+              <h3>Você me conta sua ideia</h3>
+              <p>Explica o que precisa, qual é o seu negócio e o que gostaria de ter no site.</p>
+            </div>
+          </article>
+
+          <article class="price-step reveal delay-1">
+            <span>02</span>
+            <div>
+              <h3>Eu entendo o projeto</h3>
+              <p>Organizo as páginas, recursos e detalhes necessários para criar a melhor solução.</p>
+            </div>
+          </article>
+
+          <article class="price-step reveal delay-2">
+            <span>03</span>
+            <div>
+              <h3>Você recebe o orçamento</h3>
+              <p>O valor é apresentado de forma personalizada de acordo com o trabalho necessário.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact" id="contato">
+      <div class="contact-head reveal">
+        <div class="section-label">05 — CONTATO</div>
+        <h2>Tem uma ideia?<br><em>Vamos conversar.</em></h2>
+        <p>Atendimento remoto. Você pode falar comigo pelo e-mail ou pelo LinkedIn.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card reveal" href="mailto:contato.analuizaweb@gmail.com">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg>
+          </div>
+          <div>
+            <small>E-MAIL</small>
+            <strong>contato.analuizaweb@gmail.com</strong>
+            <span>Enviar e-mail →</span>
+          </div>
+        </a>
+
+        <a class="contact-card reveal delay-1" href="https://www.linkedin.com/in/ana-luiza-da-silva-leal-77929942a" target="_blank" rel="noopener noreferrer">
+          <div class="contact-icon linkedin">in</div>
+          <div>
+            <small>LINKEDIN</small>
+            <strong>Ana Luiza</strong>
+            <span>Acessar perfil →</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-note reveal">
+        <span>✦</span>
+        <p>Conte um pouco sobre o que você precisa e eu respondo assim que possível.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#inicio" class="footer-brand">Ana Luiza</a>
+    <p>Desenvolvimento Web • Sites personalizados para pequenos negócios e projetos.</p>
+    <a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
